@@ -37,19 +37,32 @@
 ##### This clustering approach, combined with sentiment analysis, will support the development of targeted marketing strategies, product customization, and feature improvements that cater to regional preferences.
 
 ### Dataset Overview
+
 Total Entries: 3,062
 Number of Columns: 11
+
 Features:
+
 productAsin: Product identifier for the iPhone variant.
+
 country: Country where the review was written.
+
 date: Date of the review.
+
 isVerified: Indicates whether the review is verified.
+
 ratingScore: Rating given by the reviewer (integer values).
+
 reviewTitle: Title of the review.
+
 reviewDescription: Detailed description of the review (with some missing values).
+
 reviewUrl: URL of the review (with some missing values).
+
 reviewedIn: Details on where and when the review was conducted.
+
 variant: Information about the product variant, including color and size.
+
 variantAsin: Identifier for the product variant.
 
 ### Algorithms to be utilized for answering key research questions
@@ -71,14 +84,17 @@ Storage Size-Based Analysis (Clustering):
 Analyze different storage sizes (e.g., 128GB, 256GB) for their popularity across various regions.
 
 ##### Classification:
-Use Logistic Regression, Decision Tree, and Random Forest models for classification tasks (Phase 1).
+Use Logistic Regression, Decision Tree, and Random Forest models for classification tasks.
+
 ##### Natural Language Processing (NLP):
 Utilize models such as BERT for advanced sentiment classification.
 Perform in-depth analysis at different time intervals to understand changes in sentiment and rating.
+
 ##### Temporal Analysis:
 One Month After Release: Analyze sentiment immediately after release to determine skew and limitations of the dataset.
 Two Months After Release: Evaluate changes in sentiment.
 One Year After Release: Perform a detailed analysis, including metrics such as confusion matrices and heatmaps.
+
 ##### Modeling Comparison:
 Compare different models for their efficiency in sentiment prediction, accuracy, and ability to handle context effectively.
 
