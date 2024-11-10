@@ -67,8 +67,11 @@ variantAsin: Identifier for the product variant.
 
 ### Algorithms to be utilized for answering key research questions
 Clustering: K-Means, K-Means++
+
 Classification: Logistic Regression, Decision Tree, Random Forest
+
 NLP: BERT
+
 ### Analysis Overview:
 ##### Preprocessing (Dataset Cleaning) :
 Perform data cleaning, handling missing values, and normalization to prepare the dataset for analysis.
@@ -92,8 +95,11 @@ Perform in-depth analysis at different time intervals to understand changes in s
 
 ##### Temporal Analysis:
 One Month After Release: Analyze sentiment immediately after release to determine skew and limitations of the dataset.
+
 Two Months After Release: Evaluate changes in sentiment.
+
 One Year After Release: Perform a detailed analysis, including metrics such as confusion matrices and heatmaps.
+
 
 ##### Modeling Comparison:
 Compare different models for their efficiency in sentiment prediction, accuracy, and ability to handle context effectively.
